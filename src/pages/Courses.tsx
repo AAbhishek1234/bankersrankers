@@ -58,7 +58,7 @@ const Courses = () => {
       {/* Hero Section */}
       <section className="gradient-hero pt-28 pb-16 md:pt-32 md:pb-20">
         <div className="container mx-auto text-center px-4">
-          <span className="inline-block px-4 py-1 rounded-full bg-secondary/20 text-secondary font-semibold text-sm mb-4">
+          <span className="inline-block px-4 py-1 rounded-full bg-secondary/20 text-secondary font-semibold text-lg mb-4">
             Our Courses
           </span>
           <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-4 md:mb-6">

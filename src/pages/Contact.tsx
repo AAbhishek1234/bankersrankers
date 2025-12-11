@@ -69,7 +69,7 @@ const Contact = () => {
       {/* Hero Section */}
       <section className="gradient-hero pt-32 pb-20">
         <div className="container mx-auto text-center">
-          <span className="inline-block px-4 py-1 rounded-full bg-secondary/20 text-secondary font-semibold text-sm mb-4">
+          <span className="inline-block px-4 py-1 rounded-full bg-secondary/20 text-secondary font-semibold text-lg mb-4">
             Contact Us
           </span>
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6">
