@@ -39,18 +39,13 @@ const Navbar = () => {
             <GraduationCap className="h-7 w-7 text-primary-foreground" />
           </div>
           <div>
-            <span className={cn(
-              "text-xl font-display font-bold transition-colors",
-              isScrolled ? "text-primary" : "text-primary-foreground"
-            )}>
-              Bankers Rankers
-            </span>
-            <span className={cn(
-              "block text-xs transition-colors",
-              isScrolled ? "text-muted-foreground" : "text-primary-foreground/80"
-            )}>
-              {/* Academy */}
-            </span>
+           <span className="text-xl font-display font-bold">
+  <span className={isScrolled ? "text-primary" : "text-primary-foreground"}>
+    Bankers
+  </span>
+  <span className="text-secondary"> Rankers</span>
+</span>
+
           </div>
         </Link>
 
