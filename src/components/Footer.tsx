@@ -31,10 +31,18 @@ const Footer = () => {
                 Join thousands of successful candidates. Enroll today and get a free demo class!
               </p>
             </div>
-            <Button size="lg" variant="default" className="flex-shrink-0">
-              Get Free Demo
-              <ArrowRight className="h-5 w-5" />
-            </Button>
+
+            <a
+  href="https://wa.me/919910292689"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button size="lg" variant="default" className="flex-shrink-0">
+    Get Free Demo
+    <ArrowRight className="h-5 w-5" />
+  </Button>
+</a>
+
           </div>
         </div>
       </div>
@@ -49,7 +57,10 @@ const Footer = () => {
                 <GraduationCap className="h-7 w-7 text-secondary-foreground" />
               </div>
               <div>
-                <span className="text-xl font-display font-bold">Bankers Rankers</span>
+         <span className="text-xl font-display font-bold">
+  Bankers <span className="text-secondary">Rankers</span>
+</span>
+
                 {/* <span className="block text-xs text-primary-foreground/70">Academy</span> */}
               </div>
             </Link>
@@ -121,7 +132,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@Bankers Rankers.com" className="flex items-start gap-3 text-sm group">
+                <a href="mailto:info@bankersrankers.com" className="flex items-start gap-3 text-sm group">
                   <div className="w-8 h-8 rounded-lg bg-primary-foreground/10 flex items-center justify-center flex-shrink-0 group-hover:bg-secondary transition-colors">
                     <Mail className="h-4 w-4 group-hover:text-secondary-foreground" />
                   </div>
@@ -149,7 +160,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-primary-foreground/70">
-            <p>© 2025 Bankers Rankers. All rights reserved.</p>
+            <p>© 2025 bankersrankers. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-secondary transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-secondary transition-colors">Terms of Service</a>

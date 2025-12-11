@@ -71,7 +71,7 @@ const CoursesSection = () => {
           "text-center mb-16 transition-all duration-700",
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         )}>
-          <span className="inline-block px-4 py-1 rounded-full bg-secondary/20 text-secondary font-semibold text-lg mb-4">
+          <span className="inline-block px-4 py-1 rounded-full bg-secondary/5 text-secondary font-semibold text-lg mb-4">
             Our Programs
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
@@ -93,11 +93,11 @@ const CoursesSection = () => {
               )}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              {course.popular && (
+              {/* {course.popular && (
                 <div className="absolute -top-3 left-6 px-3 py-1 bg-secondary rounded-full text-xs font-bold text-secondary-foreground">
                   Popular
                 </div>
-              )}
+              )} */}
 
               <h3 className="font-display text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
                 {course.title}

@@ -131,9 +131,10 @@ const About = () => {
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6">
             Shaping <span className="text-secondary">Banking Careers</span> Since 2012
           </h1>
-          <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto">
-            Bankers Rankers Academy is a premier coaching institute dedicated to helping aspirants achieve their dream of working in prestigious banks across India.
-          </p>
+         <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto">
+  Bankers <span className="text-secondary">Rankers</span> Academy is a premier coaching institute dedicated to helping aspirants achieve their dream of working in prestigious banks across India.
+</p>
+
         </div>
       </section>
 
@@ -141,9 +142,10 @@ const About = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6 text-center">
-              About <span className="text-primary">Bankers Rankers</span>
-            </h2>
+           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6 text-center">
+  <span className="text-primary">  About Bankers</span> <span className="text-secondary">Rankers</span>
+</h2>
+
 
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
               We are India’s premier test-preparation institute dedicated exclusively to banking examinations.

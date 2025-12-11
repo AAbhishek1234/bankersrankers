@@ -40,7 +40,7 @@ const AboutSection = () => {
           <div>
             <span
               className={cn(
-                "inline-block px-4 py-1 rounded-full bg-secondary/20 text-secondary font-semibold text-lg mb-4",
+                "inline-block px-4 py-1 rounded-full bg-secondary/5 text-secondary font-semibold text-lg mb-4",
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               )}
             >
