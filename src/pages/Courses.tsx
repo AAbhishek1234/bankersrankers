@@ -5,7 +5,7 @@ import { Clock, Users, Star, ArrowRight, CheckCircle } from "lucide-react";
 
 const courses = [
   {
-    title: "Bank PO Complete Course",
+    title: "Mission Bank PO 2026",
     description: "Comprehensive preparation for SBI PO, IBPS PO, and other bank PO examinations with expert guidance and complete coverage.",
     duration: "6 Months",
     students: "5000+",
@@ -16,7 +16,7 @@ const courses = [
     popular: true,
   },
   {
-    title: "Bank Clerk Mastery",
+    title: "Mission Bank Clerk 2026",
     description: "Master all aspects of Bank Clerk exams including IBPS Clerk and SBI Clerk with our result-oriented methodology.",
     duration: "4 Months",
     students: "4500+",
@@ -27,7 +27,7 @@ const courses = [
     popular: false,
   },
   {
-    title: "RBI Grade B Course",
+    title: "Mission RBI Grade B",
     description: "Specialized coaching for RBI Grade B examination covering both Phase I and Phase II with ESI and FM.",
     duration: "8 Months",
     students: "2000+",
@@ -38,7 +38,52 @@ const courses = [
     popular: false,
   },
   {
-    title: "Complete Banking Bundle",
+    title: "Complete Banking Bundle 2026",
+    description: "All-in-one package covering PO, Clerk, RBI, and other banking examinations at heavily discounted pricing.",
+    duration: "12 Months",
+    students: "3500+",
+    rating: "5.0",
+    price: "₹49,999",
+    originalPrice: "₹89,999",
+    features: ["All Courses Access", "Priority Support", "1-on-1 Mentoring", "Job Assistance", "Lifetime Access", "Certificate"],
+    popular: true,
+  },
+
+  {
+    title: "Mission SSC CGLE 2026",
+    description: "Comprehensive preparation for SBI PO, IBPS PO, and other bank PO examinations with expert guidance and complete coverage.",
+    duration: "6 Months",
+    students: "5000+",
+    rating: "4.9",
+    price: "₹24,999",
+    originalPrice: "₹34,999",
+    features: ["200+ Video Lectures", "50+ Mock Tests", "Interview Preparation", "Daily Doubt Sessions", "Complete Study Material", "Current Affairs Updates"],
+    popular: true,
+  },
+  {
+    title: "Mission SSC CHSL 2026",
+    description: "Master all aspects of Bank Clerk exams including IBPS Clerk and SBI Clerk with our result-oriented methodology.",
+    duration: "4 Months",
+    students: "4500+",
+    rating: "4.8",
+    price: "₹14,999",
+    originalPrice: "₹19,999",
+    features: ["150+ Video Lectures", "40+ Mock Tests", "Speed Building Tests", "Study Material", "Live Classes", "Performance Analytics"],
+    popular: false,
+  },
+  {
+    title: "Mission SSC MTS 2026",
+    description: "Specialized coaching for RBI Grade B examination covering both Phase I and Phase II with ESI and FM.",
+    duration: "8 Months",
+    students: "2000+",
+    rating: "4.9",
+    price: "₹39,999",
+    originalPrice: "₹49,999",
+    features: ["300+ Video Lectures", "ESI Coverage", "Finance & Management", "Descriptive Writing", "Interview Prep", "Case Studies"],
+    popular: false,
+  },
+  {
+    title: "Mission CPO  2026",
     description: "All-in-one package covering PO, Clerk, RBI, and other banking examinations at heavily discounted pricing.",
     duration: "12 Months",
     students: "3500+",
@@ -79,11 +124,11 @@ const Courses = () => {
                 key={course.title}
                 className="relative bg-card rounded-2xl p-6 md:p-8 shadow-card hover:shadow-elevated transition-all duration-300 border border-border"
               >
-                {course.popular && (
+                {/* {course.popular && (
                   <div className="absolute -top-3 right-4 px-3 py-1 gradient-secondary rounded-full text-xs md:text-sm font-bold text-secondary-foreground">
                     Most Popular
                   </div>
-                )}
+                )} */}
 
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3 mb-4">
                   <div>

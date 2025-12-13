@@ -5,8 +5,8 @@ import { cn } from "@/lib/utils";
 const stats = [
   { icon: Users, value: 15000, suffix: "+", label: "Students Trained" },
   { icon: Award, value: 95, suffix: "%", label: "Success Rate" },
-  { icon: BookOpen, value: 50, suffix: "+", label: "Courses Available" },
-  { icon: TrendingUp, value: 12, suffix: "+", label: "Years Experience" },
+  { icon: BookOpen, value: 12, suffix: "+", label: "Courses Available" },
+  { icon: TrendingUp, value: 15, suffix: "+", label: "Years Experience" },
 ];
 
 const useCountUp = (end: number, duration: number = 2000, startCounting: boolean) => {
