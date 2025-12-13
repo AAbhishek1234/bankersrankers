@@ -65,7 +65,7 @@ const AboutSection = () => {
               )}
               style={{ transitionDelay: "200ms" }}
             >
-              With over 12 years of experience in banking exam preparation, we have helped thousands
+              With over 15 years of experience in banking exam preparation, we have helped thousands
               of students achieve their dream of working in prestigious banks. Our result-oriented
               approach and dedicated mentorship set us apart.
             </p>
@@ -111,7 +111,7 @@ const AboutSection = () => {
               {/* Central Content */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-6xl md:text-7xl font-display font-bold text-primary mb-2">12+</div>
+                  <div className="text-6xl md:text-7xl font-display font-bold text-primary mb-2">15+</div>
                   <div className="text-lg font-semibold text-foreground">Years of</div>
                   <div className="text-lg font-semibold text-secondary">Excellence</div>
                 </div>

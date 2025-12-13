@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 const stats = [
   { icon: Users, value: 15000, suffix: "+", label: "Students Trained" },
   { icon: Award, value: 95, suffix: "%", label: "Success Rate" },
-  { icon: BookOpen, value: 12, suffix: "+", label: "Courses Available" },
+  { icon: BookOpen, value: 12, suffix: "+", label: "Courses" },
   { icon: TrendingUp, value: 15, suffix: "+", label: "Years Experience" },
 ];
 
