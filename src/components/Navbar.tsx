@@ -164,7 +164,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="Bankers Rankers Logo"
-            className="h-14 w-auto"
+            className="h-12 w-auto"
           />
 
           <span className="text-2xl font-display font-bold">

@@ -121,15 +121,32 @@ const Footer = () => {
             <h4 className="font-display text-lg font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-4">
               <li>
-                <a href="tel:+919876543210" className="flex items-start gap-3 text-sm group">
-                  <div className="w-8 h-8 rounded-lg bg-primary-foreground/10 flex items-center justify-center flex-shrink-0 group-hover:bg-secondary transition-colors">
-                    <Phone className="h-4 w-4 group-hover:text-secondary-foreground" />
-                  </div>
-                  <div>
-                    <span className="text-primary-foreground/70 block text-xs">Call Us</span>
-                    <span className="text-primary-foreground group-hover:text-secondary transition-colors">+91 9871428686</span>
-                  </div>
-                </a>
+               <div className="flex items-start gap-3 text-sm group">
+  <div className="w-8 h-8 rounded-lg bg-primary-foreground/10 flex items-center justify-center flex-shrink-0 group-hover:bg-secondary transition-colors">
+    <Phone className="h-4 w-4 text-primary-foreground group-hover:text-secondary-foreground" />
+  </div>
+
+  <div>
+    <span className="text-primary-foreground/70 block text-xs mb-1">
+      Call Us
+    </span>
+
+    <a
+      href="tel:+918447696685"
+      className="block text-primary-foreground hover:text-secondary transition-colors"
+    >
+      +91 84476 96685
+    </a>
+
+    <a
+      href="tel:+919876543210"
+      className="block text-primary-foreground hover:text-secondary transition-colors"
+    >
+       +91 98765 43210
+    </a>
+  </div>
+</div>
+
               </li>
               <li>
                 <a href="mailto:info@bankersrankers.com" className="flex items-start gap-3 text-sm group">
@@ -149,7 +166,8 @@ const Footer = () => {
                   </div>
                   <div>
                     <span className="text-primary-foreground/70 block text-xs">Visit Us</span>
-                    <span className="text-primary-foreground"> New Delhi </span>
+                    <span className="text-primary-foreground">Ashok Vihar phase 4
+New Delhi 110052 </span>
                   </div>
                 </div>
               </li>
