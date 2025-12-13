@@ -127,7 +127,7 @@ const Footer = () => {
                   </div>
                   <div>
                     <span className="text-primary-foreground/70 block text-xs">Call Us</span>
-                    <span className="text-primary-foreground group-hover:text-secondary transition-colors">+91 9910292689</span>
+                    <span className="text-primary-foreground group-hover:text-secondary transition-colors">+91 9871428686</span>
                   </div>
                 </a>
               </li>

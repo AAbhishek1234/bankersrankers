@@ -6,10 +6,12 @@ import Courses from "./pages/Courses";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 
 const App = () => (
   <BrowserRouter>
+  <WhatsAppButton/>
   <ScrollToTop/>
     <Routes>
       <Route path="/" element={<Index />} />

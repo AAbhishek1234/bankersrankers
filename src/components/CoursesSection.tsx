@@ -107,9 +107,9 @@ const CoursesSection = () => {
           "text-center mb-16 transition-all duration-700",
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         )}>
-          <span className="inline-block px-4 py-1 rounded-full bg-secondary/5 text-secondary font-semibold text-lg mb-4">
+          {/* <span className="inline-block px-4 py-1 rounded-full bg-secondary/5 text-secondary font-semibold text-lg mb-4">
             Our Programs
-          </span>
+          </span> */}
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Explore Our <span className="text-primary">Courses</span>
           </h2>
