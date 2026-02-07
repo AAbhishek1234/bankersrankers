@@ -169,7 +169,7 @@ const Navbar = () => {
 
           <span className="text-2xl font-display font-bold">
             <span className="text-primary">Bankers</span>
-            <span className="text-secondary"> Rankerss</span>
+            <span className="text-secondary"> Rankers</span>
           </span>
         </Link>
 
